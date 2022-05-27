@@ -1,0 +1,43 @@
+     A*%%TS  SD  20220519  191808  DIEGODM     REL-V7R5M0  5770-WDS
+     A*%%EC
+     A                                      DSPSIZ(24 80 *DS3)
+     A          R PANTALLA
+     A*%%TS  SD  20220519  191808  DIEGODM     REL-V7R5M0  5770-WDS
+     A                                      CF03(03 'SALIR')
+     A                                  9 16'Codigo'
+     A                                  9 23'de'
+     A                                  9 26'Cliente'
+     A                                  9 34':'
+     A                                 13 16'Fecha'
+     A                                 13 22'de'
+     A                                 13 25'movimiento'
+     A                                 13 36':'
+     A                                 17 16'Valor'
+     A                                 17 22'de'
+     A                                 17 25'movimiento'
+     A                                 17 36':'
+     A                                  2 70TIME
+     A                                  3 21'CONSULTA'
+     A                                  3 30'DE'
+     A                                  3 33'MOVIMIENTOS'
+     A                                  1 70DATE(*SYS *YY)
+     A                                      EDTCDE(Y)
+     A                                 21  9'F03'
+     A                                 21 13':'
+     A                                 21 15'SALIR'
+     A            COD           10A  O  9 37
+     A                                 15 16'Ciudad'
+     A                                 15 23'de'
+     A                                 15 26'movimiento'
+     A                                 15 37':'
+     A            CIU            3S 0O 15 40
+     A            VAL           12S 0O 17 40
+     A                                 11 16'Numero'
+     A                                 11 23'de'
+     A                                 11 26'transaccion'
+     A                                 11 38':'
+     A            TRANSNUM       7S 0O 11 41
+     A            TITULO        25A  O  2  3
+     A            NOMCIU        25A  O 15 48
+     A            NOMBREPGM     10A  O  2 53
+     A            FECH          10   O 13 39                                                                                                                                                                                                            
