@@ -1,0 +1,6 @@
+     A                                      UNIQUE
+     A          R RTA6REL1
+     A            TA6REID        2S 0       TEXT('ID titulo')
+     A            TA6RECONT     25A         TEXT('Contenido de titulo')
+     A            TA6REDESC     25A         TEXT('Descripcion de titulo')
+                K TA6REID                                                            
