@@ -1,0 +1,5 @@
+                                            UNIQUE
+     A          R RBOADREL1
+     A            BOADRECOD      3S 0       TEXT('CODIGO Ciudad')
+     A            BOADRENOM     25A         TEXT('Nombre Ciudad')
+                K BOADRECOD                                                    
